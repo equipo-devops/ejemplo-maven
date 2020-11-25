@@ -1,0 +1,928 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.devopsusach2020:DevOpsUsach2020 >-----------------
+[INFO] Building DevOpsUsach2020 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) > test-compile @ DevOpsUsach2020 >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/HD/repositorios_diplomado/ejemplo_pipeline/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) < test-compile @ DevOpsUsach2020 <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) @ DevOpsUsach2020 ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:05:43.987  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:05:48.995  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:05:48.996  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:05:49.035  INFO 13086 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-25 17:05:49.036  INFO 13086 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-25 17:05:49.677  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:05:49.687  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:05:49.687  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:05:49.729  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:05:49.729  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 693 ms
+2020-11-25 17:05:49.861  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:05:49.989  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:05:50.024  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:05:50.038  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 16.32 seconds (JVM running for 16.633)
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.devopsusach2020:DevOpsUsach2020 >-----------------
+[INFO] Building DevOpsUsach2020 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) > test-compile @ DevOpsUsach2020 >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/HD/repositorios_diplomado/ejemplo_pipeline/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) < test-compile @ DevOpsUsach2020 <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) @ DevOpsUsach2020 ---
+[INFO] Attaching agents: []
+2020-11-25 17:06:13.660  INFO 13086 --- [       Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:06:22.832  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:06:23.762  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:06:27.838  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:06:27.839  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:06:27.878  INFO 13106 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-25 17:06:27.878  INFO 13106 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-25 17:06:28.499  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:06:28.507  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:06:28.507  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:06:28.550  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:06:28.550  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 672 ms
+2020-11-25 17:06:28.675  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:06:28.766  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:06:28.767  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:06:28.794  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:06:28.821  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:06:28.830  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 16.26 seconds (JVM running for 16.574)
+2020-11-25 17:06:28.899  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:06:28.899  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:06:28.900  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:06:28.904  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:06:28.904  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 134 ms
+2020-11-25 17:06:28.935  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:06:28.963  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:06:28.969  WARN 13086 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:06:28.969  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:06:28.969  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:06:28.974  INFO 13086 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:06:28.977 ERROR 13086 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:07:19.848  INFO 13106 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-25 17:07:19.849  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-25 17:07:19.856  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-11-25 17:07:19.885  INFO 13106 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
+2020-11-25 17:08:40.812  INFO 13106 --- [       Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:08:49.989  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:08:50.935  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:08:54.994  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:08:54.994  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:08:55.162  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:08:55.163  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:08:55.163  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:08:55.169  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:08:55.169  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 170 ms
+2020-11-25 17:08:55.211  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:08:55.245  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:08:55.251  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:08:55.254  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.298 seconds (JVM running for 201.857)
+2020-11-25 17:08:55.256  INFO 13086 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:08:55.940  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:08:55.941  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:08:56.111  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:08:56.112  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:08:56.113  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:08:56.117  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:08:56.117  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
+2020-11-25 17:08:56.151  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:08:56.181  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:08:56.189  WARN 13106 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:08:56.189  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:08:56.189  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:08:56.194  INFO 13106 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:08:56.197 ERROR 13106 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:09:13.866  INFO 13086 --- [       Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:09:23.787  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:09:23.979  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:09:28.790  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:09:28.791  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:09:28.918  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:09:28.920  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:09:28.920  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:09:28.925  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:09:28.925  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 129 ms
+2020-11-25 17:09:28.960  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:09:28.983  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:09:28.984  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:09:28.993  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:09:28.998  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:09:29.001  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.243 seconds (JVM running for 196.753)
+2020-11-25 17:09:29.003  INFO 13106 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:09:29.105  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:09:29.106  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:09:29.106  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:09:29.111  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:09:29.111  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 125 ms
+2020-11-25 17:09:29.140  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:09:29.168  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:09:29.173  WARN 13086 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:09:29.174  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:09:29.174  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:09:29.178  INFO 13086 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:09:29.179 ERROR 13086 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:09:41.480  INFO 13106 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-25 17:09:41.480  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-25 17:09:41.482  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-11-25 17:09:41.485  INFO 13106 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
+2020-11-25 17:09:52.067  INFO 13106 --- [       Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:10:01.807  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:10:02.191  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:10:06.809  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:10:06.809  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:10:06.943  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:10:06.944  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:10:06.944  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:10:06.950  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:10:06.950  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 138 ms
+2020-11-25 17:10:06.986  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:10:07.021  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:10:07.028  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:10:07.032  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.262 seconds (JVM running for 273.638)
+2020-11-25 17:10:07.033  INFO 13086 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:10:07.197  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:10:07.198  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:10:07.431  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:10:07.431  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:10:07.432  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:10:07.436  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:10:07.436  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 225 ms
+2020-11-25 17:10:07.469  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:10:07.502  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:10:07.505  WARN 13106 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:10:07.506  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:10:07.506  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:10:07.510  INFO 13106 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:10:07.511 ERROR 13106 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:10:27.651  INFO 13086 --- [      Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:10:37.120  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:10:37.771  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:10:42.125  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:10:42.126  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:10:42.236  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:10:42.237  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:10:42.238  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:10:42.241  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:10:42.241  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 114 ms
+2020-11-25 17:10:42.272  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:10:42.294  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:10:42.300  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:10:42.303  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.219 seconds (JVM running for 270.058)
+2020-11-25 17:10:42.304  INFO 13106 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:10:42.775  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:10:42.776  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:10:42.894  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:10:42.895  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:10:42.895  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:10:42.899  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:10:42.899  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2020-11-25 17:10:42.925  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:10:42.948  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:10:42.952  WARN 13086 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:10:42.952  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:10:42.953  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:10:42.956  INFO 13086 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:10:42.957 ERROR 13086 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:10:55.320  INFO 13106 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-25 17:10:55.321  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-25 17:10:55.323  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-11-25 17:10:55.328  INFO 13106 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
+2020-11-25 17:12:27.071  INFO 13106 --- [      Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:12:37.187  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:12:38.109  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:12:42.192  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:12:42.193  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:12:42.302  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:12:42.302  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:12:42.302  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:12:42.306  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:12:42.306  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
+2020-11-25 17:12:42.330  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:12:42.352  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:12:42.356  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:12:42.359  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.198 seconds (JVM running for 390.121)
+2020-11-25 17:12:42.360  INFO 13106 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:12:43.114  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:12:43.114  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:12:43.216  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:12:43.217  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:12:43.217  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:12:43.223  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:12:43.224  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 108 ms
+2020-11-25 17:12:43.255  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:12:43.278  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:12:43.282  WARN 13086 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:12:43.282  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:12:43.282  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:12:43.286  INFO 13086 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:12:43.286 ERROR 13086 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:13:02.399  INFO 13106 --- [      Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:13:12.523  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5003 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:13:13.291  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:13:17.525  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:13:17.526  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:13:17.628  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:13:17.629  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:13:17.629  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:13:17.637  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:13:17.638  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
+2020-11-25 17:13:17.674  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:13:17.706  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:13:17.712  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:13:17.716  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.223 seconds (JVM running for 425.479)
+2020-11-25 17:13:17.718  INFO 13106 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:13:18.295  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:13:18.296  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:13:18.424  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:13:18.425  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:13:18.425  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:13:18.429  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:13:18.429  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 131 ms
+2020-11-25 17:13:18.469  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:13:18.490  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:13:18.493  WARN 13086 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:13:18.494  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:13:18.494  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:13:18.499  INFO 13086 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:13:18.500 ERROR 13086 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:13:30.407  INFO 13106 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-25 17:13:30.408  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-25 17:13:30.410  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-11-25 17:13:30.413  INFO 13106 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
+2020-11-25 17:14:46.321  INFO 13106 --- [      Thread-30] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:14:56.078  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:14:56.402  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:15:01.083  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:15:01.084  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:15:01.264  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:15:01.265  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:15:01.265  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:15:01.269  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:15:01.269  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 183 ms
+2020-11-25 17:15:01.299  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:15:01.325  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:15:01.335  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:15:01.338  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.286 seconds (JVM running for 567.958)
+2020-11-25 17:15:01.340  INFO 13086 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:15:01.405  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:15:01.406  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:15:01.534  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:15:01.536  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:15:01.536  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:15:01.541  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:15:01.541  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 132 ms
+2020-11-25 17:15:01.575  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:15:01.600  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:15:01.604  WARN 13106 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:15:01.604  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:15:01.605  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:15:01.610  INFO 13106 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:15:01.611 ERROR 13106 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:15:18.930  INFO 13086 --- [      Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:15:29.078  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:15:29.207  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:15:34.083  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:15:34.084  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:15:34.208  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:15:34.209  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:15:34.209  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:15:34.212  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:15:34.213  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:15:34.215  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:15:34.215  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 129 ms
+2020-11-25 17:15:34.247  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:15:34.277  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:15:34.285  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:15:34.288  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.243 seconds (JVM running for 600.91)
+2020-11-25 17:15:34.289  INFO 13086 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:15:34.354  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:15:34.355  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:15:34.355  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:15:34.360  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:15:34.360  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 144 ms
+2020-11-25 17:15:34.393  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:15:34.420  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:15:34.423  WARN 13106 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:15:34.424  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:15:34.424  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:15:34.429  INFO 13106 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:15:34.429 ERROR 13106 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:15:47.726  INFO 13086 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-25 17:15:47.726  INFO 13086 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-25 17:15:47.732  INFO 13086 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-11-25 17:15:47.766  INFO 13086 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
+2020-11-25 17:17:15.598  INFO 13086 --- [      Thread-44] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:17:25.741  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:17:26.555  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:17:30.746  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:17:30.746  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:17:30.863  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:17:30.864  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:17:30.864  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:17:30.867  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:17:30.867  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2020-11-25 17:17:30.891  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:17:30.912  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:17:30.917  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:17:30.919  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.21 seconds (JVM running for 717.546)
+2020-11-25 17:17:30.920  INFO 13086 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:17:31.561  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:17:31.562  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:17:31.713  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:17:31.714  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:17:31.714  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:17:31.720  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:17:31.721  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 157 ms
+2020-11-25 17:17:31.775  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:17:31.804  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:17:31.808  WARN 13106 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:17:31.808  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:17:31.808  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:17:31.813  INFO 13106 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:17:31.814 ERROR 13106 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:17:51.554  INFO 13086 --- [      Thread-49] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:18:01.423  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:18:01.658  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:18:06.429  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:18:06.429  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:18:06.546  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:18:06.547  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:18:06.547  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:18:06.553  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:18:06.553  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2020-11-25 17:18:06.584  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:18:06.608  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:18:06.613  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:18:06.617  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.224 seconds (JVM running for 714.392)
+2020-11-25 17:18:06.618  INFO 13106 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:18:06.664  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:18:06.664  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:18:06.791  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:18:06.792  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:18:06.792  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:18:06.795  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:18:06.796  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 130 ms
+2020-11-25 17:18:06.825  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:18:06.848  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:18:06.853  WARN 13086 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:18:06.854  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:18:06.854  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:18:06.858  INFO 13086 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:18:06.858 ERROR 13086 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:18:20.046  INFO 13106 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-25 17:18:20.046  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-25 17:18:20.054  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-11-25 17:18:20.058  INFO 13106 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
+2020-11-25 17:19:24.753  INFO 13106 --- [      Thread-35] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:19:34.900  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:19:34.948  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:19:39.905  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:19:39.905  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:19:39.954  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:19:39.954  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:19:40.020  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:19:40.020  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:19:40.020  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:19:40.023  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:19:40.023  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 116 ms
+2020-11-25 17:19:40.053  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:19:40.077  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:19:40.083  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:19:40.086  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.216 seconds (JVM running for 807.866)
+2020-11-25 17:19:40.088  INFO 13106 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:19:40.111  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:19:40.112  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:19:40.113  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:19:40.118  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:19:40.118  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 162 ms
+2020-11-25 17:19:40.151  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:19:40.174  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:19:40.180  WARN 13086 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:19:40.180  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:19:40.181  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:19:40.186  INFO 13086 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:19:40.186 ERROR 13086 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:20:01.735  INFO 13106 --- [      Thread-52] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 17:20:11.850  WARN 13106 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:20:12.624  WARN 13086 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5005 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2020-11-25 17:20:16.855  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13106 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:20:16.856  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:20:16.959  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:20:16.960  INFO 13106 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:20:16.960  INFO 13106 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:20:16.963  INFO 13106 --- [  restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:20:16.963  INFO 13106 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2020-11-25 17:20:16.991  INFO 13106 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:20:17.012  WARN 13106 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 17:20:17.018  INFO 13106 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 17:20:17.022  INFO 13106 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 15.203 seconds (JVM running for 844.803)
+2020-11-25 17:20:17.023  INFO 13106 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-25 17:20:17.629  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Pro-de-Citynet.local with PID 13086 (/Volumes/HD/repositorios_diplomado/ejemplo_pipeline/build/classes started by citynet in /Volumes/HD/repositorios_diplomado/ejemplo_pipeline)
+2020-11-25 17:20:17.630  INFO 13086 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 17:20:17.784  INFO 13086 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 17:20:17.785  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 17:20:17.785  INFO 13086 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 17:20:17.790  INFO 13086 --- [  restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-11-25 17:20:17.790  INFO 13086 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 158 ms
+2020-11-25 17:20:17.832  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:20:17.867  INFO 13086 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 17:20:17.872  WARN 13086 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 17:20:17.872  INFO 13086 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 17:20:17.873  INFO 13086 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 17:20:17.879  INFO 13086 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 17:20:17.879 ERROR 13086 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-11-25 17:20:30.411  INFO 13106 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-25 17:20:30.412  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-25 17:20:30.414  INFO 13106 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-11-25 17:20:30.415  INFO 13106 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
+2020-11-25 19:51:02.844  INFO 13106 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:44 h
+[INFO] Finished at: 2020-11-25T19:51:02-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) on project DevOpsUsach2020: Application finished with exit code: 143 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
