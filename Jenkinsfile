@@ -39,7 +39,7 @@ pipeline {
         }
          stage('Test') {
             steps {
-                sleep 20
+                sleep 40
                 sh 'curl http://localhost:8081/rest/mscovid/test?msg=testing'
             }
         } 
