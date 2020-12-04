@@ -7,33 +7,42 @@ pipeline {
         
         stage('Compile') {
             steps {
-              dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
+             // dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
               sh './mvnw clean compile -e'
-              }
+             // }
             }
         }
         stage('Unit') {
             steps {
-               dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
+              // dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
                     sh './mvnw clean test -e'
-              }
+              //}
             }
         }
         stage('Jar') {
             steps {
-                 dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
+                // dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
                     sh './mvnw clean package -e'
-              }
+              //}
             }
         }
+
+          stage('SonarQube') {
+          	steps {
+    			withSonarQubeEnv('sonar') { // You can override the credential to be used
+      			sh './mvnw org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar'
+    				}
+			}
+  		}
+
         stage('Run') {
             steps {
-               dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
+               //dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
                     sh 'nohup bash mvnw spring-boot:run &'
                     
               
                     
-              }
+              //}
                
             }
         }
@@ -46,12 +55,12 @@ pipeline {
         
        stage('Stop') {
             steps {
-               dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
+               //dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
                     sh 'bash mvnw spring-boot:stop &'
                     
               
                     
-              }
+              //}
                
             }
         }
