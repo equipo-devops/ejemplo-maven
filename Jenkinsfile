@@ -38,13 +38,16 @@ pipeline {
 
 stage('Nexus Upload'){
                     steps {
-                        nexusPublisher nexusInstanceId: 'nexus', nexusRepositoryId: 'test-nexus', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: 'build/DevOpsUsach2020-1.0.2.jar', extension: 'jar', filePath: 'build/DevOpsUsach2020-0.0.1.jar']], mavenCoordinate: [artifactId: 'DevOpsUsach2020', groupId: 'com.devopsusach2020', packaging: 'jar', version: '1.0.2']]]
+                        nexusPublisher nexusInstanceId: 'nexus', nexusRepositoryId: 'test-nexus',
+                         packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '',
+                          extension: 'jar', filePath: 'build/DevOpsUsach2020-0.0.1.jar']], mavenCoordinate: [artifactId: 'DevOpsUsach2020',
+                           groupId: 'com.devopsusach2020', packaging: 'jar', version: '1.0.2']]]
                         }
                 }
 
 
 
-        stage('Run') {
+      /*  stage('Run') {
             steps {
                //dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
                     sh 'nohup bash mvnw spring-boot:run &'
@@ -54,15 +57,15 @@ stage('Nexus Upload'){
               //}
                
             }
-        }
-         stage('Test') {
+        }*/
+       /*  stage('Test') {
             steps {
                 sleep 20
                 sh 'curl http://localhost:8081/rest/mscovid/test?msg=testing'
             }
-        } 
+        } */
         
-       stage('Stop') {
+       /*stage('Stop') {
             steps {
                //dir('/Volumes/HD/repositorios_diplomado/ejemplo_pipeline') {  
                     sh 'bash mvnw spring-boot:stop &'
@@ -72,7 +75,7 @@ stage('Nexus Upload'){
               //}
                
             }
-        }
+        }*/
        
         
  
